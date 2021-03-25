@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Bookmarks </title>
+<link rel="stylesheet" href="Bookmarks.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<script src="js/jquery-3.0.0.min.js"></script> <!-- Load jquery. Nødvendig for at kunne bruge alphabetically.js. jquery-3.0.0.min.js kan findes her: https://code.jquery.com/jquery-3.0.0.min.js  -->
+<script src="js/alphabetically.js"></script> <!-- Load script der sætter linkene i alfabetisk rækkefølge -->
+<script src="js/search-function.js"></script> <!-- Load script der får søgefunktionen til at virke -->
+<meta charset="utf-8"/>
+</head>
+
+<body>
+
+<input type="text" id="Search" onkeyup="SearchFunction()" onfocus='this.value = "", SearchFunction()'  placeholder="Søg">
+
+<h1>
+
+<ul id="list">
+
+<li> <a target="_blank" href="">  </a> </li>
+
+<li> <a target="_blank" href="https://link.here"> Link tekst </a> </li>
+
+</ul>
+
+</H1>
+
+</body>
