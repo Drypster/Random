@@ -24,12 +24,26 @@ li
 	margin-top: 0;
 }
 
+#list
+{
+	-webkit-margin-before: 1em;
+}
+
+#SearchDiv
+{
+	background: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
 #Search
 {
 	display: grid;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1em;
 	width: 25%;
 	font-size: 20px;
 	border-radius: 15px;
